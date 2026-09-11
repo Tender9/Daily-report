@@ -1,0 +1,73 @@
+@import '../../assets/woff2/index.css';
+
+@font-face {
+  font-family: 'PingFang SC Custom';
+  src: url('../../assets/woff2/PingFangSC-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingFang SC Custom';
+  src: url('../../assets/woff2/PingFangSC-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingFang SC Custom';
+  src: url('../../assets/woff2/PingFangSC-Semibold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingFang SC Custom';
+  src: url('../../assets/woff2/PingFangSC-Semibold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg-main: #f4f6f8;
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --accent-orange: #d97706;
+  --accent-blue: #2563eb;
+  --accent-green: #16a34a;
+  --border-color: #e5e7eb;
+  --header-bg: #0f172a;
+  --font-family-custom: 'PingFang SC Custom', 'PingFangSC-Regular-woff2', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-family-custom);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  flex: 1;
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 20px;
+}

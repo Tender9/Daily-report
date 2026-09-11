@@ -1,0 +1,6 @@
+/* Main CSS Entrance - Modularized Styles */
+@import './styles/variables.css';
+@import './styles/header.css';
+@import './styles/upload.css';
+@import './styles/document.css';
+@import './styles/sidebar.css';

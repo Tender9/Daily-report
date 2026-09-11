@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/.venv/
+.venv/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Databases & local uploads / temporary files
+*.db
+backend/tasks.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/uploads_test/
+backend/backups/
+tmp/
+
+# AI Models
+backend/models/*.gguf
+*.gguf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

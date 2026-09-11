@@ -1,0 +1,14 @@
+{
+  "name": "qunliao-ribao-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 群聊日报工具根目录启动脚本",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "format": "npm --prefix frontend run format && cd backend && uv run ruff format .",
+    "format:frontend": "npm --prefix frontend run format",
+    "format:backend": "cd backend && uv run ruff format .",
+    "backup": "cd backend && uv run python backup.py"
+  }
+}
